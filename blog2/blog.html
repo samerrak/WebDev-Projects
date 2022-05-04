@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>blog.html</title>
+  <style>
+    header.dark{
+      background-color: #2f4f4f;
+      height: 13px;
+      padding: 10px 40px;
+    }
+    header.medium{
+      background-color: #2e8b57;
+      height: 45px;
+      padding: 30px 40px;
+      text-align: left;
+    }
+    .right{
+      float:right;
+    }
+    .left{
+      float:left;
+    }
+    .textL{
+      margin-bottom: 12px;
+      font-family: Helvetica ,Trebuchet MS, Arial, sans-serif;
+      font-size: xx-large;
+      color: white;
+    }
+    .textM{
+      font-family: Helvetica ,Trebuchet MS, Arial, sans-serif;
+      font-size: larger;
+      color: white;
+    }
+    .textXXS{
+      font-family: Helvetica ,Trebuchet MS, Arial, sans-serif;
+      font-size: xx-small;
+      color: white;
+    }
+    a.header {
+      font-family: Helvetica ,Trebuchet MS, Arial, sans-serif;
+      font-size: small;
+      color: green;
+    }
+
+    a.nav {
+      font-family: Helvetica ,Trebuchet MS, Arial, sans-serif;
+      font-size: medium;
+      color: black;
+    }
+    nav{
+      height: 24px;
+      background-color: #95DAA7;
+      text-transform: uppercase;
+      padding: 15px 40px;
+    }
+    article{
+      float: left;
+      padding-top: 35px;
+      padding-left: 40px;
+      padding-right: 25px;
+      width: 60%;
+      background-color: white;
+      height: 1000px; /* only for demonstration, should be removed */
+    }
+    aside{
+      padding-left: 15px ;
+      padding-top: 10px;
+      background-color: #d2d8c7;
+      float: left;
+      width: 20%;
+      padding-right: 15px;
+      height: 375px;
+    }
+
+    footer{
+      float: bottom;
+      padding-top: 15px;
+      padding-left: 40px;
+      background-color: #02370D;
+      height: 150px; /* only for demonstration, should be removed */
+    }
+
+    section.footer{
+      position: relative;
+      top: 5px;
+      padding: 5px;
+      font-size: medium;
+      font-family: Trebuchet MS, Arial, sans-serif;
+      color: lightgreen;
+      font-weight: bold;
+    }
+    .asideTxt{
+      position: relative;
+      top: 5px;
+      left: 6px;
+      font-size: medium;
+      font-family: Trebuchet MS, Arial, sans-serif;
+      color: black;
+      font-weight: bold;
+    }
+    a.aside{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: small;
+      color: black;
+    }
+    ul.aside{
+      position: relative;
+      bottom: 10px;
+      right: 15px;
+      list-style: none;
+    }
+    li.aside{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: x-small;
+      color: black;
+    }
+    .textA{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: x-large;
+      color: black;
+    }
+    a.article{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: x-small;
+      color: green;
+    }
+    .smallA{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: x-small;
+      color: black;
+    }
+
+    p.text{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: small;
+      color: black;
+    }
+
+    p.line{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: small;
+      color: black;
+      padding-left: 40px;
+    }
+
+    p.linel{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: small;
+      color: black;
+      padding-left: 50px;
+    }
+    section.line{
+      float: left;
+      background-color: green;
+      width:2px;
+      height: 65px;
+      position: relative;
+      left: 25px;
+    }
+
+    section.linel{
+      float: left;
+      background-color: green;
+      width:2px;
+      height: 65px;
+      position: relative;
+      left: 35px;
+    }
+
+    li{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: small;
+      color: black;
+    }
+
+    h4{
+      margin-top: -5px;
+      font-family: Trebuchet MS, Arial, sans-serif;
+      color: black
+    }
+
+    a.footer{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      font-size: small;
+      color: white;
+    }
+    h3{
+      font-family: Trebuchet MS, Arial, sans-serif;
+      color: black;
+    }
+
+    ol.h4{
+      margin-top: -15px;
+    }
+
+    ul.h3{
+      margin-top: -15px;
+    }
+
+    .myDiv{
+      clear:both;
+    }
+  </style>
+</head>
+
+
+<body>
+
+<script>
+  function myFunction() {
+    document.getElementById("1").style.color="red";
+    document.getElementById("2").style.color="red";
+    document.getElementById("3").style.color="red";
+    document.getElementById("4").style.color="red";
+    document.getElementById("5").style.color="red";
+    document.getElementById("6").style.color="red";
+    document.getElementById("7").style.color="red";
+    document.getElementById("8").style.color="red";
+    document.getElementById("9").style.color="red";
+    document.getElementById("10").style.color="red";
+    document.getElementById("11").style.color="red";
+    document.getElementById("12").style.color="red";
+    document.getElementById("13").style.color="red";
+    document.getElementById("14").style.color="red";
+    document.getElementById("15").style.color="red";
+    // this function will change background color
+    // document.getElementById("head").style.backgroundColor= "blue";
+    // document.getElementById("mid").style.backgroundColor= "yellow";
+    // document.getElementById("nav").style.backgroundColor= "purple";
+    // document.getElementById("footer").style.backgroundColor= "pink";
+    // document.getElementById("aside").style.backgroundColor= "red";
+  }
+</script>
+
+<div class="textXXS"> <header id="head" class = "dark"> <div class="left"> Welcome, Guest
+    <a id="1" class = "header" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"> Login </a>
+    <a id="2" class = "header" href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2FManageAccount%3Fnc%3D1&dsh=S1745651458%3A1643875389467809&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp">Sign Up</a>
+</div> <div class="right">Stay Updated:
+  <a id="3" class = "header" href="https://support.microsoft.com/en-us/office/subscribe-to-an-rss-feed-73c6e717-7815-4594-98e5-81fa369e951c"> Subscribe Via RSS </a>
+  <a  id="4" class = "header" href="https://subscribe.space.com/az-magazines/6936359/all-about-space-magazine-subscription.thtml?j=AAS"> Email Updates </a>
+</div></header></div>
+
+<header id="mid" class = "medium"><span class="textL"> My Blog </span> <span class="textM">&nbsp Description of My Blog</span> </header>
+
+<nav id="nav">
+  <a class="nav" href="https://www.conspiracyplanet.com/channel_ChannelID_149.html">home</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <a class="nav" href="https://www.youtube.com/watch?v=1u0VDFppCI4">about</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <a class="nav" href="blog.html"> blog </a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <a class="nav" href="https://www.airforce.com/chat-live"> contact</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <a class="nav" href="#" onclick="myFunction()"> color </a>
+</nav>
+
+<article>
+  <div class="textA"><b>Don't Cancel Chuck!</b></div>
+  <span class="smallA"> on July 01 in <a id="5" class = article href="https://www.youtube.com/watch?v=j6iE62jovMo"> General</a> tagged
+  <a id="6" class=article href="https://www.fhi.ox.ac.uk/loud-aliens/">positions</a> by
+    <a id="7" class=article href="https://www.youtube.com/watch?v=8qjNgZ_4NYQ"> admin </a>
+  </span><br>
+  <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <section class="line">
+   </section>
+  <p class="line">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <a id="8" class=article href="https://www.lipsum.com/feed/html"> <b> Read More </b></a></p>
+
+  <div class="textA"><b>Alien Spacecraft Found in New Mexico</b></div>
+  <span class="smallA"> on July 01 in <a id="9" class = article href="https://www.youtube.com/watch?v=j6iE62jovMo"> General</a> tagged
+  <a id="10" class=article href="https://www.fhi.ox.ac.uk/loud-aliens/">positions</a> by
+    <a id="11" class=article href="https://www.youtube.com/watch?v=8qjNgZ_4NYQ"> admin </a>
+  </span><br>
+  <p class="text"> Ut iaculis neque lorem. Nam eleifend lectus a lacus luctus aliquam. Cras et aliquam magna, bibendum molestie risus. Morbi nisi nibh, tristique eget nunc quis, lobortis porttitor odio. Cras vitae sem a turpis viverra ornare nec eu diam. Nulla congue sapien sit amet enim sollicitudin, nec rutrum lorem rhoncus. Sed ac ipsum a velit facilisis ornare imperdiet id orci. Integer porttitor non libero a convallis. Proin iaculis suscipit velit, sed congue erat maximus id.</p>
+
+  <ul>
+  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+  <li>Aliquam lacinia quam ac diam luctus iaculis.</li>
+  <li>Sed nec arcu id arcu semper pellentesque.</li>
+  </ul>
+  <p class="text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut posuere nisl, eget ultrices ligula. Fusce eleifend ut ligula sit amet lobortis. Suspendisse facilisis, est et elementum blandit, massa elit tincidunt augue, id semper ex urna a enim. Vestibulum sed porta dui. Aliquam viverra vel nisi quis blandit. Vivamus tincidunt ultrices metus et finibus. Quisque vestibulum porta dignissim. Nulla et libero ut odio scelerisque posuere sit amet eget sem </p>
+
+  <div class="textA"><b>Ghostly Goo in your Kitchen</b></div>
+  <span class="smallA"> on July 01 in <a id="12" class = article href="https://www.youtube.com/watch?v=j6iE62jovMo"> General</a> tagged
+  <a id="13" class=article href="https://www.fhi.ox.ac.uk/loud-aliens/">positions</a> by
+    <a id="14" class=article href="https://www.youtube.com/watch?v=8qjNgZ_4NYQ"> admin </a>
+  </span><br>
+  <p class="text"> <b> Ut varius augue sit amet </b> sapien rutrum dapibus. Donec vestibulum elit risus, vel vestibulum neque venenatis nec. Nunc elementum ex a risus suscipit feugiat. Nam pharetra eros non gravida pellentesque. Maecenas hendrerit, ex ut pulvinar posuere, diam mauris faucibus erat, et pulvinar eros ex sed urna. Proin eu diam leo. Duis porttitor ante a turpis suscipit auctor. Pellentesque fringilla sodales risus, porta pharetra nulla pretium quis. Suspendisse magna dolor, condimentum gravida lorem eget, scelerisque dignissim mi. Proin ut elit dolor. Donec nec sem neque. Integer nisi est, sollicitudin in magna a, convallis hendrerit sapien. Maecenas convallis dui sed nulla ultrices semper. Curabitur iaculis fringilla tortor, rutrum venenatis urna tempor convallis. Aenean aliquet diam quam,<a id="15" class=article href="https://www.lipsum.com/"> quis bibendum nisi semper at. </a></p>
+
+  <h4> Header Level 4 </h4>
+  <ol class="h4">
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Curabitur bibendum ante quis eros tristique condimentum.</li>
+  </ol>
+  <section class="linel">
+  </section>
+  <p class="linel">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <h3>  Header Level 3 </h3>
+
+  <ul class="h3">
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Donec sed urna vestibulum, lobortis risus vel, fermentum libero.</li>
+   </ul>
+
+  <ol class="h4">
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+    <li>Donec sed urna vestibulum, lobortis risus vel, fermentum libero.</li>
+  </ol>
+</article>
+
+<aside id="aside">
+  <span class="asideTxt">Categories
+  <ul class="aside">
+    <li> <a class="aside" href="https://www.youtube.com/watch?v=j6iE62jovMo"> General  </a> </li>
+    <li> <a class="aside" href="https://www.youtube.com/watch?v=SRPCzLT6svk"> Ghost Sightings </a></li>
+    <li> <a class="aside" href="https://www.youtube.com/watch?v=zQwDetK_tm4"> UFO Crashes  </a></li>
+    <li> <a class="aside" href="https://www.youtube.com/watch?v=PGBqLjSquD4"> Government Coverups  </a></li>
+    <li> <a class="aside" href="https://www.nbcnews.com/news/world/new-details-torture-cover-ups-china-s-internment-camps-revealed-n1270014">  International Conspiracies </a></li>
+  </ul>
+
+    Recent Posts
+  <ul class="aside">
+    <li> <a class="aside" href="https://www.nytimes.com/2020/05/14/style/haunted-house-ghost-quarantine.html">  Ghost Sighting in Mansion  </a></li>
+    <li> <a class="aside" href="https://www.scientificamerican.com/article/alien-hunters-discover-mysterious-signal-from-proxima-centauri/">  UFO picked by satellites  </a></li>
+    <li> <a class="aside" href="https://www.pcmag.com/news/13-humans-with-real-life-x-men-mutant-super-powers">  Mutants Among Us?  </a></li>
+    <li> <a class="aside" href="https://www.livescience.com/24598-bigfoot.html">  Bigfoot: Fact or Fiction  </a></li>
+  </ul>
+
+    Archives
+  <ul class="aside">
+    <li> <a class="aside" href="https://www.wired.com/2008/06/britains-finest/"> June 2008  </a> </li>
+    <li> <a class="aside"  href="https://www.theguardian.com/science/2008/may/14/spaceexploration.military">May 2008</a></li>
+    <li> <a class="aside" href="https://www.youtube.com/watch?v=zQwDetK_tm4"> UFO Crashes  </a></li>
+    <li> <a class="aside" href="https://www.youtube.com/watch?v=TuwAU7h1CZg">  April 2008 </a></li>
+    <li> <a class="aside" href="https://go.gale.com/ps/i.do?id=GALE%7CA182976232&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=10639330&p=AONE&sw=w&userGroupName=anon%7Ed2fb01e"> March 2008 </a></li>
+  </ul>
+</span></aside>
+
+<div class="myDiv"></div>
+
+<footer id="footer">
+  <section class="footer">
+    Link &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Follow our Updates <br><br>
+    <a class=footer href="https://helpx.adobe.com/ca/photoshop/tutorials.html">PSDtuts - Photoshop tutorials</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class=footer href="https://support.microsoft.com/en-us/office/subscribe-to-an-rss-feed-73c6e717-7815-4594-98e5-81fa369e951c">  Subscribe to RSS Feed</a><br>
+    <a class=footer href="https://helpx.adobe.com/ca/photoshop/tutorials.html">NetTtuts - Web development and design tutorials</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a class=footer href="https://www.digitaltrends.com/computing/what-is-an-rss-feed/">What is RSS</a><br>
+    <a class=footer href="https://helpx.adobe.com/ca/photoshop/tutorials.html">Vectortuts - Illustrator and vector tutorials</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class=footer href="https://subscribe.space.com/az-magazines/6936359/all-about-space-magazine-subscription.thtml?j=AAS">Email Updates</a><br>
+    <a class=footer href="https://helpx.adobe.com/ca/photoshop/tutorials.html">Flashtuts - Adobe and flash tutorials</a><br>
+  </section>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>

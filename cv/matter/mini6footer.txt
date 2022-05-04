@@ -1,0 +1,11 @@
+<div class="footer">
+<div class ="col-sm-12 col-s-12 col-12">
+<div style="float: left; width: 100%; background-color: lightgreen ;padding: 20px">
+    <b>Links</b><br><br>
+    <a href="https://www.linkedin.com/in/samer-abdulkarim-a0bb03226/">LinkedIn</a><br><br>
+    <a href="https://www.instagram.com/normalsamer/?hl=en">Instagram</a><br><br>
+</div>
+</div>
+</div>
+</body>
+</html> 

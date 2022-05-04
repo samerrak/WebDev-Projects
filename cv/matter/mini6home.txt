@@ -1,0 +1,43 @@
+<div class="about">
+<div class="col-sm-12 col-12 col-s-12">
+    <span style="font-size: large"><b>Samer Abdulkarim</b></span><br>
+    <span style="font-size: x-small">U1 Honours Computer Science & Biology Student @ McGill</span>
+    <p style="font-size: medium"><b>About:</b><br><span style="font-size: small">Scientist and lifelong foodie. I am an honours second-year student at McGill pursuing a Bachelors of Science in Computer Science & Biology with a Minor in Mathematics. While others might want to pursue lucrative opportunities in Computer Science, I prioritize learning, and testing myself in new environments to be more rewarding.
+        Interested in pursuing opportunities related to Computer Vision, Software Development, Web Development, Quantitative Biology and Finance.</span> <br> </p>
+    <p style="font-size: medium"><b>Experience:<br><br>
+        <span style="font-size: small">Math Tutoring:<br></span></b>
+        <span style="font-size: x-small">Self-employed:<br></span>
+        <span style="font-size: x-small; color: gray">May 2020 - Present<br></span>
+        <span style="font-size: x-small">Conducting one-on-one tutoring sessions for high school students struggling in Functions (MCR3U), Advanced Functions (MHF4U), Calculus (MCV4U), AP Calculus and SAT Math. Work on how to approach each mathematical problem, and through many practice problems that the student was struggling with. Worked with students who were taking the SAT Math subject test as well.</span>
+    </p>
+
+    <p style="font-size: medium"><b>Education:<br><br>
+        <span style="font-size: small">McGill University<br></span></b>
+        <span style="font-size: x-small">BSc in Joint Honours Computer Science & Biology - GPA:3.5<br></span>
+        <span style="font-size: x-small; color: gray">Sep 2021 - Apr 2024<br></span>
+    </p>
+    <p><span style="font-size: small"><b>Queens University</b><br></span>
+        <span style="font-size: x-small">BEng in Engineering & Mathematics - GPA: 3.9<br></span>
+        <span style="font-size: x-small; color: gray">Sep 2020 - Aug 2021<br></span></p>
+
+    <p style="font-size: medium"><b>Honours & Awards:<br><br>
+        <span style="font-size: small">Dean's Scholar<br></span></b>
+        <span style="font-size: x-small">Issued by Dean of Engineering Dr. Kevin DeLuzio . 2021<br></span>
+        <span style="font-size: x-small">Associated with Queens University<br></span>
+    </p>
+
+    <p>
+        <span style="font-size: small"><b>Honors Roll<br></b></span>
+        <span style="font-size: x-small">Issued by Abbey Park High<br></span>
+    </p>
+    <p style="font-size: medium"><b>Courses Completed:<br><br>
+        <span style="font-size: small">COMP:<br></span></b>
+        <span style="font-size: x-small">206,208,250,(TBC: 252,273,303,302,307)<br></span>
+        <b><span style="font-size: small">MATH:<br></span></b>
+        <span style="font-size: x-small">222,235,254<br></span>
+        <b><span style="font-size: small">BIOL:<br></span></b>
+        <span style="font-size: x-small">112<br></span>
+    </p>
+</div>
+
+</div>

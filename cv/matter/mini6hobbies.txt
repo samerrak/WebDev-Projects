@@ -1,0 +1,38 @@
+<div class="hobbies" style="padding:20px">
+        <h2>Hobbies:</h2>
+        <p style="font-size:large"><b>Reading:<br><br></b>
+            <span style="font-size: Medium"> Favorite Novel: The Great Gatsby<br>
+                Favorite Autobiography: The Life Of Malcolm X<br>
+                Favorite Fantasy Book: A Song of Ice and Fire<br>
+                Favorite Romantic Novel: Normal People</span>
+        </p>
+
+        <p style="font-size:large"><b>Poetry:<br><br></b>
+            <span style="font-size: Medium"> To Our Land by Mohammed Darwish:</span><br>
+            <span style="font-size: small">
+                To our land<br>
+                and it is the one near the word of god,<br>
+                a ceiling of clouds To our land,<br>
+            and it is the one far from the adjectives of nouns,<br>
+            the map of absence<br>
+            To our land,<br>
+            and it is the one tiny as a sesame seed,<br>
+            a heavenly horizon ... and a hidden chasm<br>
+            To our land,<br>
+            and it is the one poor as a grouse’s wings,<br>
+            holy books ... and an identity wound<br>
+            To our land,<br>
+            and it is the one surrounded with torn hills,<br>
+            the ambush of a new past<br>
+            To our land, and it is a prize of war,<br>
+            the freedom to die from longing and burning<br>
+            and our land, in its bloodied night,<br>
+            is a jewel that glimmers for the far upon the far<br>
+            and illuminates what’s outside it ...<br>
+            As for us, inside,<br>
+            we suffocate more<br>
+            </span>
+        </p>
+
+
+    </div>
